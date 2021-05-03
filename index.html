@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap -->
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
  
       <title>SchuBu | Geschichte | Die Pest</title>
       
@@ -22,7 +22,7 @@
    </div>
    <span onclick="openNav()">Menü</span>
 
-    <div id="old">
+<div id="old">
     <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12 toppart">
@@ -49,10 +49,88 @@
      Erst nachdem bereits mehrere Hunderttausend Menschen gestorben waren, kam den Menschen die Idee der Isolation – damit ist der Vorgang gemeint, dass Erkrankte sich von gesunden Menschen fernhalten mussten, um eine mögliche Ansteckung zu verhindern. Außerdem kennzeichnete man die Türen der Häuser von Erkrankten mit einem Kreuz, später mussten betroffene Menschen sogar aus den Städten ziehen – eine Maßnahme, die viele Familien zerriss.   
   </div>
 </div>
+<div class="orangeback">
+   <p class="bilder">Siehe was sich hinter den Bildern versteckt!</p>
+   <div class="row">
+      <div class="col-sm-3">
+         <a data-toggle="tooltip" data-placement="bottom" title="Zur Behandlung nahmen die Ärzte an den Kranken einen sogenannten Aderlass vor. Sie schnitten dabei die Venen der Kranken auf, und ließen oft mehrere Liter Blut ab, um so die Krankheitskeime aus dem Körper zu spülen. Diese Art der Behandlung stieß allerdings auf keinen Erfolg – im Gegenteil: Heutzutage ist nachgewiesen, dass ein Aderlass den Patienten mehr geschadet als geholfen hat">
+         <div class="circle-container">
+            <div class="outer-ring"></div>
+            
+            <div class="circle">
+               <div class="back">
+                  <p>Pestdoktor</p>
+               </div>
+               <div class="front">
+                  <i class=" back-logo "></i>
+                  <img src="doktor.png" />
+               </div>
+            </div>
+         </div>
+         </a>
+      </div>
+
+      <div class="col-sm-3">
+         <a data-toggle="tooltip" data-placement="bottom" title="Durch die schlechten Hygienebedingungen der damaligen Zeit wurden auch die vielen Kleintiere wie z.B. Ratten, die in den dreckigen Straßen der Städte lebten, mit der Pest infiziert und trugen in Folge einen wesentlichen Beitrag zur Verbreitung der Pest bei: Sie steckten damit Flöhe an, die wiederum die Menschen ansteckten – eine Tatsache, die den Menschen der damaligen Zeit leider nicht bewusst war.">
+         <div class="circle-container">
+            <div class="outer-ring"></div>
+
+            <div class="circle">
+               <div class="back">
+                  <p>Ratte</p>
+               </div>
+               <div class="front">
+                  <i class=" back-logo-ratte "></i>
+                  <img src="ratte.png" />
+               </div>
+            </div>
+         </div>
+      </a>
+      </div>
+
+      <div class="col-sm-3">
+         <a data-toggle="tooltip" data-placement="bottom" title="Die Symptome der Pest waren hohes Fieber, die Bildung vieler schmerzhafter dunkler Beulen am ganzen Körper und der Tod nach kurzer Zeit. Durch die weite Verbreitung brachte die Pest in Europa ein Massensterben hervor, dessen Ausmaß damals keiner erahnen konnte: In den  Jahren von 1346 bis 1353 starben in Europa geschätzt 25 Millionen Menschen an den Folgen einer Pesterkrankung, das entspricht einem Drittel der Bevölkerung, die damals lebte.">
+            <div class="circle-container">
+            <div class="outer-ring"></div>
+
+            <div class="circle">
+               <div class="back">
+                  <p>Bakterium</p>
+               </div>
+               <div class="front">
+                  <i class=" back-logo"></i>
+                  <img src="bakterium.png" />
+               </div>
+            </div>
+         </a>
+         </div>
+
+      </div>
+
+      <div class="col-sm-3">
+         <a data-toggle="tooltip" data-placement="bottom" title="Die damalige Bevölkerung suchte einen Auslöser bzw. Verantwortliche für den Auslöser und den Folgen der Krankheit und fand diesen in den Juden. Man warf damals den Juden vor, Schuld an der Verbreitung der Pest zu haben und absichtlich die Brunnen vergiftet zu haben. Dieser Glaube wurde vor allem dadurch angefeuert, da die Juden aufgrund ihrer vorgeschriebenen Reinheitsvorschriften einen wesentlich höheren Hygienestandard als der Rest der Bevölkerung hatten, und somit auch weniger von der Pest betroffen waren. Nach der Pest gab es aufgrund solcher Judenpogrome fast keine jüdische Bevölkerung mehr in Europa.">
+         <div class="circle-container">
+            <div class="outer-ring"></div>
+
+            <div class="circle">
+               <div class="back-small">
+                  <p>Judenprogrome</p>
+               </div>
+               <div class="front">
+                  <i class=" back-logo"></i>
+                  <img src="judenprogrome.png" />
+               </div>
+            </div>
+         </div>
+      </a>
+      </div>
+   </div>
 </div>
-</div>
-         <p class="spiel">Jetzt bist du dran!</p>
-</div>
+
+
+
+<p class="lückentext"></p> 
+         <h1>Jetzt bist du dran!</h1>
     <div id="main" class="container-fluid">
       <div id="inout" hidden>
         <div id="output"></div>
@@ -98,9 +176,9 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     
-    <script src="qalib.js"></script>
-    <script src="script.js"></script>
+    <script src="js/qalib.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
