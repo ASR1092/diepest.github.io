@@ -205,10 +205,10 @@ function antwort11(antwort) {
     output(antwort + "!? Deine Überlebenschancen wären nicht die besten. Das wegen des Alters noch schwache Immunsystem sowie die im Mittelalter übliche Unterernährung von Kindern sind beides Faktoren, die sich negativ auf die Überlebenschance von Kindern ausgewirkt haben");
   } else if (antwort <= 17) {
     output(antwort + "!? Deine Überlebenschancen wären leider nicht optimal. Das wegen des Alters noch schwache Immunsystem sowie die im Mittelalter übliche Unterernährung von Jugendlichen sind beides Faktoren, die sich negativ auf die Überlebenschance von Jugendlichen ausgewirkt haben.");
-  } else if (antwort > 17) {
+  } else if (antwort <= 109) {
     output(antwort + ". Da hat du noch einmal Clück gehabt. Erwachsene hatten meistens ein stärkeres Immunsystem und bessere Abwehrkräfte als Kinder und Jugendlichen und haben die Pest daher eher überstande.");
-  } else if (antwort > 110) {
-    output(antwort + ". ?!Respekt! Du hast dich gut gehalten. Menschen sind damals unabhängig von der Pest jedoch nicht so alt geworden. Du musst daher davon ausgehen, dass deine Überlebenschancen minimal gewesen wären. ");
+  } else if (antwort >= 110) {
+    output(antwort + ".?! Respekt! Du hast dich gut gehalten. Menschen sind damals unabhängig von der Pest jedoch nicht so alt geworden. Du musst daher davon ausgehen, dass deine Überlebenschancen minimal gewesen wären. ");
   } else {
     input("Ich habe das nicht richtig verstanden. Kannst du mir erneut dein Alter nennen.", antwort11);
   } 
